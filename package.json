@@ -1,6 +1,6 @@
 {
   "name": "@warren-bank/extract-zip",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "",
   "description": "An extremely lightweight cross-platform command-line utility to extract a zip file into a target directory.",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "start": "node bin/unzip-cli.js"
   },
   "dependencies": {
-    "adm-zip": "0.5.16"
+    "@warren-bank/adm-zip": "^0.5.17"
   },
   "repository": {
     "type": "git",
